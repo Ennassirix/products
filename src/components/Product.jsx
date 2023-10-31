@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Product({title, thumbnail ,price}) {
+export default function Product({ title, thumbnail, price }) {
     return (
         <div className="card" >
             <img src={`../assets/${thumbnail}`} alt="photo" />

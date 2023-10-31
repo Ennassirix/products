@@ -6,7 +6,7 @@ function App() {
   return (
     <div className='container'>
       <h1>Ordinateurs portables</h1>
-      <Products/>
+      <Products />
     </div>
   )
 }

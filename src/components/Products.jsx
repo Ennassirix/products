@@ -7,8 +7,8 @@ export default function Products() {
             {
                 products.map(product => {
                     return (
-                        <div className="col col-lg-4 mb-3">
-                            <Product title={product.title}  thumbnail={product.thumbnail} price={product.price} />
+                        <div className="col col-lg-4 mb-3" key={product.id}>
+                            <Product title={product.title} thumbnail={product.thumbnail} price={product.price} />
                         </div>
                     )
                 })
